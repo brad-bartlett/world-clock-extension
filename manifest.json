@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "World Clock",
+    "version": "1.1",
+    "description": "Chome extension for current time zone.",
+    "author": "Brad Bartlett",
+    "icons": {
+        "128": "globe.png"
+    },
+    "browser_action" : {
+        "default_icon": "globe.png",
+        "default_title": "World Clock",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"],
+    "background": {
+        "scripts": ["main.js"]
+    }
+
+}
